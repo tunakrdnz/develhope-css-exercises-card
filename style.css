@@ -1,0 +1,43 @@
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.wrap {
+    width: 350px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 7px;
+}
+
+.card-header {
+    padding: 15px;
+}
+
+.card-main p {
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.card-main ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.4;
+    margin: 0;
+    border-top: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.card-main ul li {
+    padding: 15px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+
+.card-footer {
+    padding: 20px 0 20px 15px;
+}
+
+.card-footer > :not(:first-of-type) {
+    margin: 10px;
+}
